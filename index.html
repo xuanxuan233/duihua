@@ -53,17 +53,18 @@
             border-radius: 20px;
             font-size: 16px;
             position: relative;
+            align-self: flex-end; /* 使消息对齐右侧 */
         }
         .sent {
             background-color: #34C759;
             color: white;
-            align-self: flex-end;
+            align-self: flex-end; /* 确保发送的消息对齐右侧 */
             border-bottom-right-radius: 0;
         }
         .received {
             background-color: #007AFF;
             color: white;
-            align-left: flex-start;
+            align-self: flex-start;
             border-bottom-left-radius: 0;
         }
         .profile-container {
@@ -93,7 +94,7 @@
             border-radius: 10px;
         }
         .profile-text {
-            margin-self: 20px;
+            margin-left: 20px;
             text-align: left;
             font-size: 16px;
         }
