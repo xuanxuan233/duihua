@@ -48,7 +48,7 @@
             cursor: pointer;
         }
         .message {
-            max-width: 60%;
+            max-width: 80%; /* 控制消息宽度，避免消息太窄 */
             padding: 10px 15px;
             border-radius: 20px;
             font-size: 16px;
@@ -57,13 +57,13 @@
         .sent {
             background-color: #34C759;
             color: white;
-            align-self: flex-end; /* 发送的消息右对齐 */
+            align-self: flex-end; /* 发送的消息靠右 */
             border-bottom-right-radius: 0;
         }
         .received {
             background-color: #007AFF;
             color: white;
-            align-self: flex-start; /* 接收的消息左对齐 */
+            align-self: flex-start; /* 接收的消息靠左 */
             border-bottom-left-radius: 0;
         }
         .profile-container {
